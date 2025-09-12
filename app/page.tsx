@@ -9,7 +9,7 @@ export default async function VehicleDetailPage({ params }: { params: { id: stri
 
   // URLのidを使って、vehiclesテーブルから1件のデータを取得
   const { data: vehicle, error } = await supabase
-    .from("vehicles")
+    .from("cars")
     .select("*")
     .eq("id", params.id) // idカラムがparams.idと一致するものを探す
     .single() // 1件だけ取得する
