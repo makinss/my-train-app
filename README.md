@@ -1,30 +1,69 @@
-# port
+# my-train-app
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+鉄道車両のより詳しい情報を気軽に検索できるサイトです。Next.jsとSupabaseを用いた検索アプリです。
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/d30555212-9797s-projects/v0-port)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/h68YGL5oTbW)
+![キャプチャ画像]([ここにスクリーンショットやGIFのパスを記述])
+*（例：トップページの検索画面）*
 
-## Overview
+## サイトURL
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+**[https://your-deploy-url.com](https://your-deploy-url.com)**
 
-## Deployment
+> **※注意：** ここにはVercel等でデプロイした**アプリのURL**を貼り付けてください。（GitHubのURLではありません）
+> ゲストログイン等の機能があれば、その説明も追記すると親切です。
 
-Your project is live at:
+---
 
-**[https://vercel.com/d30555212-9797s-projects/v0-port](https://vercel.com/d30555212-9797s-projects/v0-port)**
+## アプリ概要
 
-## Build your app
+鉄道好きや旅行者が、特定の鉄道車両に関する詳細な情報（型番、製造年、所属路線など）を簡単かつ直感的に検索できるWebアプリケーションです。
 
-Continue building your app on:
+---
 
-**[https://v0.app/chat/projects/h68YGL5oTbW](https://v0.app/chat/projects/h68YGL5oTbW)**
+## 機能一覧
 
-## How It Works
+- **車両検索機能**
+  - キーワードによるインクリメンタルサーチ
+  - 形式や所属路線による絞り込み検索
+- **車両詳細表示機能**
+  - 車両のスペック、歴史、写真などを表示
+- **[その他機能があれば追記]**
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## 使用技術
+
+- **フロントエンド**: Next.js 14.2
+- **バックエンド**: Next.js 14.2
+- **データベース**: Supabase
+- **デプロイ**: Vercel
+- **バージョン管理**: Git, GitHub
+- **テスト・デバッグ**: DevTools (Chrome)
+
+---
+
+## 設計ドキュメント
+
+- **[要件定義・基本設計・詳細設計の一覧](https://docs.google.com/spreadsheets/d/1wUVArSaBLwzclRfJvASlJbYaWMFBQpoYvOS5TxKFnYI/edit?gid=983827669#gid=983827669)**
+- 詳細なワイヤーフレームやER図などは`docs`ディレクトリに格納しています。（[こちらからアクセス]([docsディレクトリへのリンク]))
+
+---
+
+## テスト・修正の設計及び実施書
+
+- **[テスト項目書・実施結果]([ここにテスト関連のスプレッドシート等のリンクを記述])**
+
+---
+
+## アプリの改善案
+
+- **[今後の改善案・TODOリスト]([ここに改善案をまとめたドキュメントのリンクを記述])**
+
+---
+
+## 備考
+
+- **活用した生成AIとその用途**
+  - **ChatGPT**: 要件定義、設計、各種リサーチ
+  - **v0**: アプリのモック作成
+  - **GitHub Copilot Chat**: ローカル環境でのコードの修正相談
