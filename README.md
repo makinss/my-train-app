@@ -7,7 +7,7 @@
 
 ## サイトURL
 
-**[https://your-deploy-url.com](https://your-deploy-url.com)**
+**vercel.com/…55212-9797s-projects/https://*
 
 > **※注意：** ここにはVercel等でデプロイした**アプリのURL**を貼り付けてください。（GitHubのURLではありません）
 > ゲストログイン等の機能があれば、その説明も追記すると親切です。
