@@ -1,5 +1,6 @@
 
 
+
 import { createClient } from "@/lib/supabase/server"
 import Link from "next/link"
 import { Train } from "lucide-react"
