@@ -1,6 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
 import { notFound } from "next/navigation";
-import ToiletInfo from "@/components/ui/Toiletinfo";
+import ToiletInfo from "@/components/ui/toiletinfo";
 
 // 型定義
 type Car = {
