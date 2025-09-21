@@ -42,7 +42,7 @@
 ## 設計ドキュメント
 
 - **[要件定義・基本設計・詳細設計の一覧](https://docs.google.com/spreadsheets/d/1wUVArSaBLwzclRfJvASlJbYaWMFBQpoYvOS5TxKFnYI/edit?gid=983827669#gid=983827669)**
-- 詳細なワイヤーフレームやER図などは`docs`ディレクトリに格納しています。（[こちらからアクセス]([docsディレクトリへのリンク]))
+- 詳細なワイヤーフレームやER図などは`docs`ディレクトリに格納しています。（[[]](https://miro.com/app/board/uXjVJM9FNfs=/?moveToWidget=3458764639308862507&cot=14)))
 
 ---
 
